@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 100;
+}
+input, select, button{
+    border: 1px solid #ddd;
+}
+.container{
+    background-color: #ccccd6;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conversor{
+    background-color: #5c5d61;
+    width: 25em;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+    font-size: 1.8em;
+    color: white;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+#quant{
+    border-radius: 5px;
+    border: 0;
+    height: 2em;
+    font-size: 1em;
+    padding: 0 10px;
+    user-select: none;
+}
+
+    #quant::-webkit-inner-spin-button,
+    #quant::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#de-moeda, #para-moeda{
+    width: 19vw;
+    height: 2em;
+    border-radius: 5px;
+}
+button{
+    height: 2.3em;
+    background-color: #49d467;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 0 10px;
+    user-select: none;
+    border: 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: .1s;
+}
+button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#result{
+    z-index: 2;
+    font-size: 1.2em;
+    color: #000;
+}
+
+
+
+
+
+
